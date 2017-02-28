@@ -1,6 +1,6 @@
 {
   "name": "telling-stories-site",
-  "version": "0.0.0",
+  "version": "1.0.0-alpha.1",
   "description": "Build a visual documentation site using telling-stories.",
   "keywords": [
     "ember-addon",
