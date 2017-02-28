@@ -49,6 +49,9 @@
     "node": ">= 0.12.0"
   },
   "ember-addon": {
-    "configPath": "tests/dummy/config"
+    "configPath": "tests/dummy/config",
+    "paths": [
+      "lib/parser"
+    ]
   }
 }
