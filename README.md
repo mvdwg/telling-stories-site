@@ -2,6 +2,8 @@
 
 Generate a visual documentation site for your Ember.js application by using [telling-stories](https://github.com/mvdwg/telling-stories).
 
+![screenshot](./screenshot.png)
+
 ## Installation
 
 This addon assumes that you're already using [telling-stories](https://github.com/mvdwg/telling-stories) addon.
