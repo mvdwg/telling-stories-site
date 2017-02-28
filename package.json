@@ -1,17 +1,19 @@
 {
   "name": "telling-stories-site",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Build a visual documentation site using telling-stories.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "telling-stories",
+    "documentation"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Santiago Ferreira <san650@gmail.com>",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/mvdwg/telling-stories-site.git",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
@@ -19,6 +21,9 @@
   },
   "dependencies": {
     "ember-cli-babel": "^5.1.7"
+  },
+  "peerDependencies": {
+    "telling-stories": "^1.0.0-alpha.8"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",

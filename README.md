@@ -1,27 +1,35 @@
 # telling-stories-site
 
-This README outlines the details of collaborating on this Ember addon.
+Generate a visual documentation site for your Ember.js application by using [telling-stories](https://github.com/mvdwg/telling-stories).
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd telling-stories-site`
-* `npm install`
-* `bower install`
+This addon assumes that you're already using [telling-stories](https://github.com/mvdwg/telling-stories) addon.
 
-## Running
+To install this addon just do:
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+```
+$ ember install telling-stories-site
+```
 
-## Running Tests
+## Generate documentation site
 
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
+To generate a visual documentation site for your app, just run
 
-## Building
+```
+$ ember ts:build
+```
 
-* `ember build`
+This command generates a documentation site on dist/ folder. You can check it
+out locally by running
 
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+```
+$ cd dist/
+$ python -m SimpleHTTPServer
+```
+
+## License
+
+telling-stories-site is licensed under the MIT license.
+
+See [LICENSE](./LICENSE) for the full license text.
